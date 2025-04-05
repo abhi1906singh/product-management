@@ -4,7 +4,8 @@
 
 <template>
   <div>
-    This is my app component.
+    <router-view/>
+    
   </div>
 </template>
 
