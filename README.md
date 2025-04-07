@@ -1,5 +1,32 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Installation steps
+fOR RUNNING ON LOCAL
+git clone "repo link"
+npm install / yarn install  -                for installing dependencies
+npm run dev / yarn run dev  -                  TO run project
+ 
+ 
+# Product Submission Form
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+A dynamic Vue 3 form component for product management with validation, conditional fields, and image upload capabilities.
+
+## Features
+
+- 📋 Multi-section form with conditional field rendering
+- ✅ Comprehensive validation using Vuelidate
+- 🖼️ Image upload with preview (JPEG/PNG, ≤5MB)
+- ⚡ Dynamic options based on product category
+- 📅 Scheduled publishing functionality
+- ✂️ Character counters for text fields
+- 🚚 Smart shipping options (weight restrictions)
+
+## Components
+
+1. **InputBox** - Make a single input box to handle all the input along with its validation
+2. **SelectBox** - Accepts data and error and iterate and show it in one component.
+3. **RadioGroup** - Accepts array and show data as single choice radio group
+4. **MultiSelect** - Checkbox-based multiple selection for selecting multiple data.
+
+
+
+
