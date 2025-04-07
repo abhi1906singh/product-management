@@ -26,7 +26,7 @@
   
   const props = defineProps({
     label: String,
-    options: Array, // [{value: '', label: ''}]
+    options: Array, 
     name: String,
     modelValue: [String, Number], 
     required: Boolean,

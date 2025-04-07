@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@vuelidate/core": "^2.0.3",
@@ -18,6 +21,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.2.0"
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^17.4.4",
+    "vite": "^6.2.0",
+    "vitest": "^3.1.1"
   }
 }

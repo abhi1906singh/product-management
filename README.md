@@ -4,6 +4,7 @@ fOR RUNNING ON LOCAL
 git clone "repo link"
 npm install / yarn install  -                for installing dependencies
 npm run dev / yarn run dev  -                  TO run project
+npm test -- to test 
  
  
 # Product Submission Form
