@@ -253,24 +253,10 @@
       {{ publicationDateError.message }}
     </div>
   </div>
-       
-        <!-- <div v-if="form.publicationStatus === 'Scheduled'">
-          <div class="label">Publication Date</div>
-          <input
-            type="date"
-            v-model="form.publicationDate"
-            @blur="$v.publicationDate.$touch()"
-             :class="{ 'is-invalid': $v.publicationDate.$error }"
-          />
-
-          <div v-if="$v.publicationDate.$error" class="error-message">
-            {{ $v.publicationDate.$errors[0].$message }}
-          </div>
-        </div> -->
-
-
-
       <button type="submit" class="btn-primary">Submit</button>
+      <div v-if="formSubmitted" class="submission-message">
+      Data has been submitted successfully!
+    </div>
     </form>
   </div>
 </template>
